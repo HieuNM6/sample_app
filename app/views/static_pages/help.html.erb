@@ -1,2 +1,11 @@
-<h1>Help</h1>
-<p>Get help on the Ruby on Rails tutorial</p>
+<% provide(:title, "Help")%>
+<!DOCTYPE html>
+<html>
+  <head>
+  <title><%= yield(:title)%> | Sample App </title>
+  </head>
+  <body>
+  <h1>Help</h1>
+  <p>Get help on the Ruby on Rails tutorial</p>
+  </body>
+</html>
