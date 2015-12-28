@@ -17,3 +17,6 @@
 /tmp
 # Ignore Spring file
 /spring/*.pid
+# Ignore Vim temporary file
+*.swp
+*.swo
